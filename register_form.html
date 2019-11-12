@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title>MACHAKOS UNIVESITY</title>
+	  <link href="./css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="./css/all.css">  	
+  </head>
+  <body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Machakos University</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register_form.html">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register_list.html">Report</a>
+        </li>	
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html" >Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+<br>  <p class="text-center">Register Student</p>
+<hr>
+
+
+<div class="row justify-content-center">
+<div class="col-md-6">
+<div class="card">
+<article class="card-body">
+<form>
+	<div class="form-row">
+		<div class="col form-group">
+			<label>First name </label>   
+		  	<input type="text" class="form-control" placeholder="">
+		</div>
+		<div class="col form-group">
+			<label>Last name</label>
+		  	<input type="text" class="form-control" placeholder=" ">
+		</div>
+	</div>
+	<div class="form-group">
+		<label>Admission Number</label>
+		<input type="text" class="form-control" placeholder="###-####-####">
+	</div>
+	<div class="form-group">
+			<label class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio" name="gender" value="option1">
+		  <span class="form-check-label"> Male </span>
+		</label>
+		<label class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio" name="gender" value="option2">
+		  <span class="form-check-label"> Female</span>
+		</label>
+	</div>	
+	<div class="form-group">
+		<label>School</label>
+	    <input class="form-control" type="text">
+	</div>
+	<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label>Department</label>
+		  <input type="text" class="form-control">
+		</div> 
+		<div class="form-group col-md-6">
+		  <label>Course</label>
+		  <select id="inputState" class="form-control">
+		    <option> Choose...</option>
+		      <option>Bsc IT</option>
+		      <option>Bsc Computer Science</option>
+		      <option selected="">Bsc Commerce</option>
+		      <option>Bsc Education</option>
+		      <option>Bsc Civil Engineering</option>
+		  </select>
+		</div>
+	</div>	
+	<div class="form-group">
+		<label>Age</label>
+	    <input class="form-control" type="number">
+	</div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Register  </button>
+    </div>                                              
+</form>
+</article> <!-- card-body end .// -->
+</div> <!-- card.// -->
+</div> <!-- col.//-->
+
+</div> <!-- row.//-->
+
+
+</div> 
+<!--container end.//-->
+</body>
+</html>
