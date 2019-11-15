@@ -10,7 +10,7 @@
 <br />
 <br />
 <br />
-<table class="table table-hover">
+<table class="table table-hover table-striped">
   <tr>
      <th>#</th> 
     <th>First Name</th>

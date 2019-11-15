@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	<div class="form-row">
 		<div class="form-group col-md-6">
 		  <label>Department</label>
-		  <input name="department" type="text" class="form-control">
+		  <input name="department" type="text" class="form-control" required>
 		</div> 
 		<div class="form-group col-md-6">
 		  <label>Course</label>
