@@ -8,11 +8,15 @@
 	$school = $_POST['school'];
 	$gender = $_POST['gender'];
 	
-	$con = mysqli_connect("localhost","maureen","","mksu");
+	if(!$fname || !$lname || !$age || !$course || !$adm_no || !$department || !$school || !$gender){
+		echo 'No data <a href="register_form.php">Register</a>';
+	}else{
+		$con = mysqli_connect("localhost","maureen","","mksu");
 
-	$sql = "INSERT INTO student(fname,lname,adm_no,age,school,department,course,gender) 
-				values('$fname','$lname','$adm_no','$age','$school ','$department','$course','$gender')";
-	
-	mysqli_query($con,$sql);
+		$sql = "INSERT INTO student(fname,lname,adm_no,age,school,department,course,gender) 
+					values('$fname','$lname','$adm_no','$age','$school ','$department','$course','$gender')";
+		
+		mysqli_query($con,$sql);
+	}
 
 ?>

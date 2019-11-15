@@ -6,36 +6,7 @@
 <link rel="stylesheet" href="./css/all.css">  	
   </head>
   <body>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">Machakos University</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="register_form.html">Register</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="register_list.html">Report</a>
-        </li>	
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html" >Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php include("nav.html") ?>
 <div class="container">
 <br>
 <br>
@@ -112,6 +83,8 @@
 
 </div> 
 <!--container end.//-->
+
+<?php include("footer.html") ?>
 
 </body>
 </html>
